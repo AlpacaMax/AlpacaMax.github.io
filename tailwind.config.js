@@ -10,6 +10,10 @@ module.exports = {
 				'highlight': '#e63946',
 				'text': '#1d3557'
 			},
+			fontFamily: {
+				sans: ['Nunito', 'sans-serif'],
+				serif: ['Crimson Pro'],
+			},
 		},
   },
   plugins: [],
