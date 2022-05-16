@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
 			colors: {
-				'bgcolor': '#f1faee',
-				'highlight': '#e63946',
-				'text': '#1d3557'
+				'bgcolor': '#f4f1de',
+				'highlight': '#e07a5f',
+				'text': '#3d405b'
 			},
 			fontFamily: {
 				sans: ['Nunito', 'sans-serif'],
