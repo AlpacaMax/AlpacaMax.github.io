@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Link from 'next/link';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
 
 export default function Home() {
@@ -9,9 +9,11 @@ export default function Home() {
 				<div className="flex flex-row">
 					<div className="grow flex flex-row">
 						<div className="bg-highlight py-8 px-6 rounded-b-lg">
-							<a href="#" className="text-xl text-bgcolor font-bold">
-								AlpacaMax
-							</a>
+							<Link href="/">
+								<a className="text-xl text-bgcolor font-bold">
+									AlpacaMax
+								</a>
+							</Link>
 						</div>
 					</div>
 					<div className="grow flex flex-row justify-end font-extralight text-text">
@@ -46,7 +48,14 @@ export default function Home() {
 				</div>
 
 				<div>
-					<a className="bg-highlight text-bgcolor text-lg py-3 px-6 rounded-lg" href="#">Read My CV</a>
+					<a 
+						className="bg-highlight text-bgcolor text-lg py-3 px-6 rounded-lg"
+						href="https://docs.google.com/document/d/e/2PACX-1vRrAs7amMwkWyspFxdKKoX0BsiYwYxhU3AUe-OWMQMFW2t095QKBol3bOaN03ZEo3hnIPUMibWWvSp0/pub"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Read My CV
+					</a>
 				</div>
 			</div>
 			<footer className="absolute inset-x-0 bottom-0 flex flex-row justify-center text-2xl text-text">
