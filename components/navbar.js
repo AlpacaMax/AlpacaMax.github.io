@@ -14,7 +14,9 @@ export default function Navbar() {
 			</div>
 			<div className="grow flex flex-row justify-end font-extralight text-text">
 				<div className="m-8">
-					<a href="#">Projects</a>
+					<Link href="/projects">
+						<a>Projects</a>
+					</Link>
 				</div>
 				<div className="m-8">
 					<a href="#">Blogs</a>
