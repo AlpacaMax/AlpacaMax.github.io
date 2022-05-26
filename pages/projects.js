@@ -9,7 +9,7 @@ export default function Projects() {
 						Debate It
 					</div>
 					<div className="col-span-2">
-						<span>A 1 vs 1 open debate platform implemented in Python + FastAPI + PostgreSQL</span>
+						1 vs 1 open debate platform implemented in Python + FastAPI + PostgreSQL
 					</div>
 					<div className="justify-self-end font-bold">
 						<a
@@ -21,7 +21,7 @@ export default function Projects() {
 						</a>
 					</div>
 					<div className="col-span-2">
-						An AST-based source code plagiarism detection system
+						AST-based source code plagiarism detection system
 					</div>
 					<div className="justify-self-end font-bold">
 						<a
@@ -33,7 +33,7 @@ export default function Projects() {
 						</a>
 					</div>
 					<div className="col-span-2">
-						A Distributed LMS for automating Computer Science courses from NYU
+						Distributed LMS for automating Computer Science courses from NYU
 					</div>
 					<div className="justify-self-end font-bold">
 						<a
@@ -45,7 +45,7 @@ export default function Projects() {
 						</a>
 					</div>
 					<div className="col-span-2">
-						A 2021 GiGA Game Jam entry implemented in Lua + Love2d
+						2021 GiGA Game Jam entry implemented in Lua + Love2d
 					</div>
 					<div className="justify-self-end font-bold">
 						<a
@@ -57,7 +57,7 @@ export default function Projects() {
 						</a>
 					</div>
 					<div className="col-span-2">
-						A plane ticket booking system implemented in Python + Flask + SQLalchemy
+						plane ticket booking system implemented in Python + Flask + SQLalchemy
 					</div>
 					<div className="justify-self-end font-bold">
 						<a
@@ -69,7 +69,7 @@ export default function Projects() {
 						</a>
 					</div>
 					<div className="col-span-2">
-						A WeeklyGameJam entry implemented in Unity3D
+						WeeklyGameJam entry implemented in Unity3D
 					</div>
 					<div className="justify-self-end font-bold">
 						<a
@@ -81,7 +81,13 @@ export default function Projects() {
 						</a>
 					</div>
 					<div className="col-span-2">
-						A Chip-8 Emulator implemented in Python
+						Chip-8 Emulator implemented in Python
+					</div>
+					<div className="justify-self-end font-bold">
+						High School Website
+					</div>
+					<div className="col-span-2">
+						Website for the International Department of Changhzhou No.1 High School
 					</div>
 				</div>
 			</div>

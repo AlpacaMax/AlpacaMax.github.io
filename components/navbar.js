@@ -19,10 +19,12 @@ export default function Navbar() {
 					</Link>
 				</div>
 				<div className="m-8">
-					<a href="#">Blogs</a>
+						<a href="#">Blogs</a>
 				</div>
 				<div className="m-8">
-					<a href="#">Bio</a>
+					<Link href="/bio">
+						<a>Bio</a>
+					</Link>
 				</div>
 			</div>
 		</div>
