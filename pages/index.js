@@ -23,7 +23,7 @@ I mostly code in Python. Recently I’ve also been taking a deeper dive into C. 
 				<div className="mt-20">
 					<a 
 						className="bg-highlight text-bgcolor text-lg py-3 px-6 rounded-lg"
-						href="https://docs.google.com/document/d/e/2PACX-1vRrAs7amMwkWyspFxdKKoX0BsiYwYxhU3AUe-OWMQMFW2t095QKBol3bOaN03ZEo3hnIPUMibWWvSp0/pub"
+						href="#"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
