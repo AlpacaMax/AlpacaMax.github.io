@@ -19,11 +19,6 @@ export default function Navbar() {
 					</Link>
 				</div>
 				<div className="m-8">
-					<Link href="/blogs">
-						<a>Blogs</a>
-					</Link>
-				</div>
-				<div className="m-8">
 					<Link href="/bio">
 						<a>Bio</a>
 					</Link>
