@@ -19,7 +19,7 @@ export default function Home() {
 					</p>
 					<br />
 					<p className="font-light">
-						I’m also an amateur artist who dabbles in sketching, 3D art, and graphics design. You can find my work on Instagram and Artstation.
+						I’m also an amateur artist who dabbles in sketching, 3D art, and graphic design. You can find my artwork on Instagram and Artstation.
 					</p>
 				</div>
 			</div>
