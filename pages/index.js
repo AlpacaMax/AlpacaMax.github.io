@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import Layout from '../components/layout.js';
 
 export default function Home() {
@@ -5,11 +7,17 @@ export default function Home() {
 		<Layout>
 			<div className="grow flex flex-row py-12">
 				<div className="basis-1/4">
-					<img className="shadow-[10px_10px_rgba(0,0,0,1)]" src="portrait.jpeg" />
+					<Image
+						className="shadow-[10px_10px_rgba(0,0,0,1)]"
+						src="portrait.jpeg"
+						width={500}
+						height={500}
+						alt="Portrait"
+					/>
 				</div>
 				<div className="basis-3/4 text-text px-16">
 					<p className="font-light">
-						Hello, I'm
+						Hello, I&apos;m
 					</p>
 					<p className="py-4 text-2xl font-bold">
 						Tian Yang
