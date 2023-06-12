@@ -3,32 +3,24 @@ import Layout from '../components/layout.js';
 export default function Home() {
   return (
 		<Layout>
-			<div className="grow text-text flex flex-col justify-center">
-				<p className="text-2xl font-light">
-					Hello, I&apos;m
-				</p>
-				<p className="my-3 text-4xl font-bold">
-					Tian(Maxwell) Yang
-				</p>
-				<p className="font-light text-xl">
-					Student, Reader, Software Developer, Open Source Contributor, Dreamer 
-				</p>
-				<p className="text-xl mt-20">
-					I’m a student majoring Computer Science at New York University Tandon School of Engineering. I’ve been a relentless programmer since I was 13. In my free time I read books, watch TV series and anime, and code. Occasionally I play chess and tetris and draw pixel art.
-				</p>
-				<p className="text-xl mt-4">
-I mostly code in Python. Recently I’ve also been taking a deeper dive into C. Additionally, I code in Javascript, Lua, Bash and sometimes Go. In total I’ve used 15 programming languages already and I’ll try even more in the future!
-				</p>
-
-				<div className="mt-20">
-					<a 
-						className="bg-highlight text-bgcolor text-lg py-3 px-6 rounded-lg"
-						href="/resume.pdf"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Read My CV
-					</a>
+			<div className="grow flex flex-row py-12">
+				<div className="basis-1/4">
+					<img className="shadow-[10px_10px_rgba(0,0,0,1)]" src="portrait.jpeg" />
+				</div>
+				<div className="basis-3/4 text-text px-16">
+					<p className="font-light">
+						Hello, I'm
+					</p>
+					<p className="py-4 text-2xl font-bold">
+						Tian Yang
+					</p>
+					<p className="font-light">
+						I am an incoming Ph.D. student under the supervision of Andrew Chien at University of Chicago. Before that, I was an undergraduate student and research intern at New York University majoring in Computer Science. My research interests are in Cloud Computing, Operating Systems, Distributed Systems, and Computer Security.
+					</p>
+					<br />
+					<p className="font-light">
+						I’m also an amateur artist who dabbles in sketching, 3D art, and graphics design. You can find my work on Instagram and Artstation.
+					</p>
 				</div>
 			</div>
 		</Layout>

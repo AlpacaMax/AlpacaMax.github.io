@@ -8,7 +8,7 @@ module.exports = {
 			colors: {
 				'bgcolor': '#14213D',
 				'highlight': '#FCA311',
-				'text': '#3d405b'
+				'text': '#E5E5E5'
 			},
 			fontFamily: {
 				sans: ['Inter', 'Nunito', 'sans-serif'],
