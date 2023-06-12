@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
 			colors: {
-				'bgcolor': '#f4f1de',
-				'highlight': '#e07a5f',
+				'bgcolor': '#14213D',
+				'highlight': '#FCA311',
 				'text': '#3d405b'
 			},
 			fontFamily: {
-				sans: ['Nunito', 'sans-serif'],
+				sans: ['Inter', 'Nunito', 'sans-serif'],
 				serif: ['Crimson Pro'],
 			},
 		},
