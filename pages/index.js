@@ -1,12 +1,15 @@
+import { useState } from 'react';
+
 import Image from 'next/image';
 
 import Layout from '../components/layout.js';
-// import portraitPic from '../public/portrait.jpeg';
+import Navbar from '../components/navbar.js';
 
 export default function Home() {
-  return (
+	let [tab, setTab] = useState("PROJECTS");
+	return (
 		<Layout>
-			<div className="grow flex flex-row py-12">
+			<div className="flex flex-row py-12">
 				<div className="basis-1/4">
 					<Image
 						src="/portrait.jpeg"
@@ -32,6 +35,11 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
+			<Navbar
+				tab={tab}
+				setTab={setTab}
+			/>
+			<div className="grow flex flex-row"></div>
 		</Layout>
-  )
+	)
 }

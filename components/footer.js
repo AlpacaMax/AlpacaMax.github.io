@@ -12,7 +12,7 @@ export default function Footer() {
 			</footer>
 			<div className="flex flex-row justify-center my-4">
 				<span className="font-thin text-xs">
-					© Tian Yang / 2023
+					© Tian Yang / { (new Date()).getFullYear() }
 				</span>
 			</div>
 		</div>

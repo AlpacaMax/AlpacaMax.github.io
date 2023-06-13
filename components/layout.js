@@ -1,5 +1,4 @@
 import Header from '../components/header.js';
-import Navbar from '../components/navbar.js';
 import Footer from '../components/footer.js';
 
 export default function Layout({ children }) {
