@@ -1,10 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
 	images: {
-		loader: 'imgix',
-		path: 'https://alpacamax.github.io/',
+		loader: 'custom',
+		loaderFile: './loader.js',
 	},
-  reactStrictMode: true,
 }
-
-module.exports = nextConfig

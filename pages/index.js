@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import Layout from '../components/layout.js';
+// import portraitPic from '../public/portrait.jpeg';
 
 export default function Home() {
   return (
@@ -8,11 +9,11 @@ export default function Home() {
 			<div className="grow flex flex-row py-12">
 				<div className="basis-1/4">
 					<Image
-						className="shadow-[10px_10px_rgba(0,0,0,1)]"
-						src="portrait.jpeg"
-						width={500}
-						height={500}
+						src="/portrait.jpeg"
+						width={250}
+						height={250}
 						alt="Portrait"
+						className="shadow-[10px_10px_rgba(0,0,0,1)]"
 					/>
 				</div>
 				<div className="basis-3/4 text-text px-16">
