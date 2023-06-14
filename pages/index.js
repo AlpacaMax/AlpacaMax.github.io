@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import Layout from '../components/layout.js';
 import Navbar from '../components/navbar.js';
+import Projects from './projects.js';
 
 export default function Home() {
 	let [tab, setTab] = useState("PROJECTS");
@@ -39,7 +40,7 @@ export default function Home() {
 				tab={tab}
 				setTab={setTab}
 			/>
-			<div className="grow flex flex-row"></div>
+			<Projects />
 		</Layout>
 	)
 }
