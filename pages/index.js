@@ -8,6 +8,8 @@ import Projects from './projects.js';
 
 export default function Home() {
 	let [tab, setTab] = useState("PROJECTS");
+	let [tabContent, setTabContent] = useState(<Projects />);
+
 	return (
 		<Layout>
 			<div className="flex flex-row py-12">
@@ -39,8 +41,10 @@ export default function Home() {
 			<Navbar
 				tab={tab}
 				setTab={setTab}
+				setTabContent={setTabContent}
 			/>
-			<Projects />
+			{ tabContent }
+			<div className="grow flex flex-col"></div>
 		</Layout>
 	)
 }

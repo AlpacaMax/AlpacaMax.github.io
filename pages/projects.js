@@ -1,8 +1,6 @@
-import Layout from '../components/layout.js';
-
 export default function Projects() {
 	return (
-		<div className="my-16 grow flex flex-col text-text justify-center">
+		<div className="my-16 flex flex-col text-text justify-center">
 			<div className="grid grid-flow-row grid-cols-3 auto-rows-max gap-6 justify-items-stretch">
 				<div className="justify-self-end font-bold">
 					Debate It
