@@ -8,15 +8,15 @@ export default function Header() {
 			<Head>
 				<title>Tian Yang</title>
 			</Head>
-			<div className="flex flex-row">
-				<div className="flex flex-row">
-					<div className="bg-highlight my-6 py-3 px-6 shadow-[10px_10px_rgba(0,0,0,1)]">
+			<div className="flex flex-col md:flex-row">
+				<div className="flex">
+					<div className="mx-auto bg-highlight mt-6 md:my-6 py-3 px-6 shadow-[10px_10px_rgba(0,0,0,1)]">
 						<Link href="/" className="text-xl text-black font-light">
 							TIAN YANG
 						</Link>
 					</div>
 				</div>
-				<footer className="grow flex flex-row justify-end text-2xl text-text mt-9">
+				<footer className="grow flex flex-row mx-auto md:justify-end text-2xl text-text mt-9">
 					<a href="https://github.com/AlpacaMax" className="mx-4" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
 					<a href="https://twitter.com/AlpacaMax2000" className="mx-4" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
 					<a href="https://www.instagram.com/alpacamax2000/" className="mx-4" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
